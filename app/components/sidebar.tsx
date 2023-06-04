@@ -158,21 +158,10 @@ export function SideBar(props: { className?: string }) {
         </a>
         </div>
         <div className={styles["sidebar-bar-button"]}>
-        <a href="http://www.j0a.cn" target="_blank">
+        <a href="/" target="_blank">
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "繁星SCDN"}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
-          shadow
-        />
-        </a>
-        </div>
-        <div className={styles["sidebar-bar-button"]}>
-        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=q-NAOXF5Bhr7WriIrYLmNIzwaz2xGe_1&authKey=d2nFbGCTznqa%2BI1ANGm1Q82sfHTHP4WthpWtTncgqiLeiRoT0cQK0xNrNOfUW6W8&noverify=0&group_code=281354575" target="_blank">
-        <IconButton
-          icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "网络交流群"}
+          text={shouldNarrow ? undefined : "广告位"}
           className={styles["sidebar-bar-button"]}
           onClick={() => showToast(Locale.WIP)}
           shadow
@@ -183,10 +172,10 @@ export function SideBar(props: { className?: string }) {
       
       <div className={styles["sidebar-header-bar"]}>
         <div className={styles["sidebar-bar-button"]}>
-        <a href="/">
+        <a href="http://www.j0a.cn">
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "广告位"}
+          text={shouldNarrow ? undefined : "繁星SCDN"}
           className={styles["sidebar-bar-button"]}
           onClick={() => showToast(Locale.WIP)}
           shadow
@@ -194,10 +183,10 @@ export function SideBar(props: { className?: string }) {
         </a>
         </div>
         <div className={styles["sidebar-bar-button"]}>
-        <a href="/">
+        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=q-NAOXF5Bhr7WriIrYLmNIzwaz2xGe_1&authKey=d2nFbGCTznqa%2BI1ANGm1Q82sfHTHP4WthpWtTncgqiLeiRoT0cQK0xNrNOfUW6W8&noverify=0&group_code=281354575">
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "广告位"}
+          text={shouldNarrow ? undefined : "网络交流群"}
           className={styles["sidebar-bar-button"]}
           onClick={() => showToast(Locale.WIP)}
           shadow
